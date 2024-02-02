@@ -2,3 +2,4 @@
 # https://github.com/manna-harbour/miryoku
 
 zmk=zmkfirmware/zmk/main
+zmk-rgbled-widget=caksoylar/zmk-rgbled-widget/main
