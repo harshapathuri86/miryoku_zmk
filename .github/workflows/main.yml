@@ -199,7 +199,6 @@ jobs:
             git fetch --unshallow
             for merge in $merges
             do
-              echo "merge $merge $user $repo"
               user=`echo "$merge" | cut -f 1 -d '/'`
               repo=`echo "$merge" | cut -f 2 -d '/'`
               branch=`echo "$merge" | cut -f 3- -d '/'`
